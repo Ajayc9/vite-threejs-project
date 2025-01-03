@@ -1,0 +1,11 @@
+Model Information:
+* title:	DODGE CHARGER
+* source:	https://sketchfab.com/3d-models/dodge-charger-ed03bd403faf4cad9c91478f97594640
+* author:	yankobe (https://sketchfab.com/yankobe.do)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "DODGE CHARGER" (https://sketchfab.com/3d-models/dodge-charger-ed03bd403faf4cad9c91478f97594640) by yankobe (https://sketchfab.com/yankobe.do) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

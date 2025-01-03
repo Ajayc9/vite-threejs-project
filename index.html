@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>3D Animation</title>
+  </head>
+  <body>
+    <canvas id="canvas" class="canvas"></canvas>
+    <div id="loadingOverlay">
+      <div class="spinner"></div>
+    </div>
+    <div id="popup" class="popup">
+      <div id="closeButton">
+        <img id="close-icon" src="./assets/icons/close.png" />
+      </div>
+      <div class="popup-content">
+        <p id="popupText" class="popup-text"></p>
+      </div>
+    </div>
+    <button id="toggleButton"><img src="./assets/icons/rotate.png" /></button>
+    <button id="zoomOutButton"><img src="./assets/icons/minus.png" /></button>
+    <button id="zoomInButton"><img src="./assets/icons/add.png" /></button>
+
+   <button id="rotateRight"><img src="./assets/icons/right-arrow.png" /></button>
+    <button id="rotateLeft"><img src="./assets/icons/left-arrow.png" /></button>
+    <button id="rotateUp"><img src="./assets/icons/up-arrow.png" /></button>
+    <button id="rotateDown"><img src="./assets/icons/down-arrow.png" /></button>
+
+
+    <select name="select-hotspot" id="select-hotspot">
+      <!-- <option value="0" disabled>Choose</option> -->
+      <option value="1">Screen Resolution</option>
+      <option value="2">Charging Port</option>
+      <option value="3">Main Camera</option>
+      <option value="4">Front Camera</option>
+      <option value="5">Power Button</option>
+    </select>
+
+    <script type="module" src="./googlescript.js"></script>
+  </body>
+</html>

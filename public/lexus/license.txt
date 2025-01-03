@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lexus LS 500 F Sport
+* source:	https://sketchfab.com/3d-models/lexus-ls-500-f-sport-bc240e796ced4190bedf123f77a140e9
+* author:	SeKali (https://sketchfab.com/zh.200.c)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lexus LS 500 F Sport" (https://sketchfab.com/3d-models/lexus-ls-500-f-sport-bc240e796ced4190bedf123f77a140e9) by SeKali (https://sketchfab.com/zh.200.c) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

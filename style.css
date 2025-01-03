@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  display: none;
+  /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); */
+  background-color: rgb(255 255 255 / 70%);
+  /* backdrop-filter: blur(10px); */
+
+
+}
+
+.popup-content {
+  display: flex;
+  align-items: center;
+  /* color: white; */
+  justify-content: space-between;
+  border-radius: 1px;
+    color: #222;
+      max-width: 500px;
+    pointer-events: auto;
+    transition-duration: 300ms;
+    animation-duration: 300ms;
+    width: 213.222px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 1155.33px;
+    left: 52px;
+
+}
+
+.popup-text {
+  margin-top: 1em;
+  flex-grow: 1;
+  font-size: smaller;
+  font-style: inherit;
+  font-family: math;
+}
+#closeButton {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  color: white;
+  margin: -2px -10px;
+}
+
+#close-icon {
+  height: 16px;
+}
+
+#toggleButton {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#zoomOutButton {
+  position: absolute;
+  bottom: 10px;
+  left: 55px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#zoomInButton {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img {
+  height: 15px;
+  /* width: 20px; */
+}
+
+.hotspot:hover {
+  cursor: pointer;
+}
+
+#loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+.select-hotspot{
+  position: absolute;
+  z-index: 11111;
+} */
+
+#select-hotspot {
+
+  position: absolute;
+  /* bottom: 10px; */
+  /* left: 10px; */
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* position: relative; */
+  border-radius: 4px;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+}
+
+/* Style for the dropdown arrow */
+#select-hotspot::after {
+  content: '\25BC'; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensure the arrow doesn't interfere with clicking */
+}
+
+/* Style for the options */
+#select-hotspot option {
+  background-color: #fff; /* Set background color */
+  color: #333; /* Set text color */
+}
+
+/* Style for when the select element is focused */
+#select-hotspot:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #007bff; /* Change border color when focused */
+}
+
+#rotateLeft{
+  position: absolute;
+  bottom: 10px;
+  left: 190px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#rotateRight{
+  position: absolute;
+  bottom: 10px;
+  left: 145px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#rotateUp{
+  position: absolute;
+  bottom: 10px;
+  left: 235px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#rotateDown{
+  position: absolute;
+  bottom: 10px;
+  left: 280px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

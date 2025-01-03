@@ -1,0 +1,11 @@
+Model Information:
+* title:	Google pixel VII PRo
+* source:	https://sketchfab.com/3d-models/google-pixel-vii-pro-f77235d8cba8456883d33265424945bd
+* author:	dannzjs (https://sketchfab.com/dannzjs)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Google pixel VII PRo" (https://sketchfab.com/3d-models/google-pixel-vii-pro-f77235d8cba8456883d33265424945bd) by dannzjs (https://sketchfab.com/dannzjs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
