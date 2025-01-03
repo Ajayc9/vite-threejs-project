@@ -1,0 +1,11 @@
+Model Information:
+* title:	google-pixel-7pro
+* source:	https://sketchfab.com/3d-models/google-pixel-7pro-c46e13868498492c9d100ce07a859ef0
+* author:	ossssn (https://sketchfab.com/ossssn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "google-pixel-7pro" (https://sketchfab.com/3d-models/google-pixel-7pro-c46e13868498492c9d100ce07a859ef0) by ossssn (https://sketchfab.com/ossssn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
